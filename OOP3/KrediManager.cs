@@ -9,6 +9,6 @@ namespace OOP3
         public void Hesapla();
         public void BiseyYap();
 
-        
+        // +++++intefaceyi birbirlerinin alternatifi ama kod içerikleri farklı olan yerlerde kullanılır.+++++
     }
 }
