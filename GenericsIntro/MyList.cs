@@ -6,11 +6,15 @@ namespace GenericsIntro
 {
     class MyList<T>
     {
-        T[] items = new T[];
+        T[] items;
+
+
         public MyList()  //ctor-- constructer
         {
-            items = new T[0];
+            items = new T[0]; // newledigimizde olusturmak için biz ayarladık constructer ile
         }
+
+
         public void Add(T item)
         {
             T[] tempArray = items;
